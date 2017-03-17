@@ -8,9 +8,9 @@ Time spent: 7 hours spent in total
 
 The following **required** functionality is must be completed:
 
-- [ ] User can sign in/sign up to weWrk, using their gmail, facebook, or email accounts and sign out.
+- [x] User can sign in/sign up to weWrk, using their gmail, facebook, or email accounts and sign out.
 - [ ] On signup, user is asked for information related to their work history, who they know, interests.
-- [ ] App remembers signed in users and settings across app restarts.
+- [x] App remembers signed in users and settings across app restarts.
 - [ ] User can see their timeline page, job applications, and profile page.
 - [ ] People, jobs, companies, can be searched, and viewed. 
   - [ ] User can apply for a job.
@@ -50,7 +50,7 @@ Post model:
 
 Here's a walkthrough (tentative) of implemented user stories:
 
-<img src='http://i.imgur.com/bz5tLba.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/KYw5cPv.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
