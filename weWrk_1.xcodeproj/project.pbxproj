@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DE1B52FB1E790D6C000F01BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B52FA1E790D6C000F01BA /* AppDelegate.swift */; };
-		DE1B52FD1E790D6C000F01BA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B52FC1E790D6C000F01BA /* FirstViewController.swift */; };
-		DE1B52FF1E790D6C000F01BA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B52FE1E790D6C000F01BA /* SecondViewController.swift */; };
 		DE1B53021E790D6C000F01BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B53001E790D6C000F01BA /* Main.storyboard */; };
 		DE1B53041E790D6C000F01BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1B53031E790D6C000F01BA /* Assets.xcassets */; };
 		DE1B53071E790D6C000F01BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B53051E790D6C000F01BA /* LaunchScreen.storyboard */; };
@@ -21,13 +19,18 @@
 		DE1B53201E798624000F01BA /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B531F1E798624000F01BA /* SignupViewController.swift */; };
 		DE1B53261E79AD7D000F01BA /* Helper extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B53251E79AD7D000F01BA /* Helper extensions.swift */; };
 		DE1B53281E79B269000F01BA /* customField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B53271E79B269000F01BA /* customField.swift */; };
+		DEE089D81E7B56E00007814F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEE089D71E7B56E00007814F /* GoogleService-Info.plist */; };
+		DEE089DB1E7B7B5E0007814F /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE089DA1E7B7B5E0007814F /* constants.swift */; };
+		DEE089DD1E7B88870007814F /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE089DC1E7B88870007814F /* feedViewController.swift */; };
+		F35B946F241DE92E9E794B9D /* Pods_weWrk_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044BB32CB00BC46475A25ED0 /* Pods_weWrk_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044BB32CB00BC46475A25ED0 /* Pods_weWrk_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weWrk_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF0DC01750002144E15161F /* Pods-weWrk_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weWrk_1.release.xcconfig"; path = "Pods/Target Support Files/Pods-weWrk_1/Pods-weWrk_1.release.xcconfig"; sourceTree = "<group>"; };
+		CD7E00698685A9286E9C03EF /* Pods-weWrk_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weWrk_1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weWrk_1/Pods-weWrk_1.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1B52F71E790D6C000F01BA /* weWrk_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weWrk_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B52FA1E790D6C000F01BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = weWrk_1/AppDelegate.swift; sourceTree = "<group>"; };
-		DE1B52FC1E790D6C000F01BA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DE1B52FE1E790D6C000F01BA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DE1B53011E790D6C000F01BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE1B53031E790D6C000F01BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1B53061E790D6C000F01BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +43,10 @@
 		DE1B531F1E798624000F01BA /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		DE1B53251E79AD7D000F01BA /* Helper extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper extensions.swift"; sourceTree = "<group>"; };
 		DE1B53271E79B269000F01BA /* customField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customField.swift; sourceTree = "<group>"; };
+		DEE089D71E7B56E00007814F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEE089D91E7B6A960007814F /* weWrk_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = weWrk_1.entitlements; sourceTree = "<group>"; };
+		DEE089DA1E7B7B5E0007814F /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		DEE089DC1E7B88870007814F /* feedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,12 +54,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35B946F241DE92E9E794B9D /* Pods_weWrk_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FC8F959CCAF7C11629D187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044BB32CB00BC46475A25ED0 /* Pods_weWrk_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		032FFCD033F6D4A3CBF7D0A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7E00698685A9286E9C03EF /* Pods-weWrk_1.debug.xcconfig */,
+				0FF0DC01750002144E15161F /* Pods-weWrk_1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE1B52EE1E790D6B000F01BA = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +86,8 @@
 				DE1B53191E797AB1000F01BA /* SourceSansPro-Bold.ttf */,
 				DE1B52F91E790D6C000F01BA /* weWrk_1 */,
 				DE1B52F81E790D6C000F01BA /* Products */,
+				032FFCD033F6D4A3CBF7D0A5 /* Pods */,
+				00FC8F959CCAF7C11629D187 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +102,7 @@
 		DE1B52F91E790D6C000F01BA /* weWrk_1 */ = {
 			isa = PBXGroup;
 			children = (
+				DEE089D91E7B6A960007814F /* weWrk_1.entitlements */,
 				DE1B53111E790EF9000F01BA /* ViewControllers */,
 				DE1B53121E790F13000F01BA /* Models */,
 				DE1B53131E790F2E000F01BA /* Delegate */,
@@ -83,6 +111,7 @@
 				DE1B530E1E790EA0000F01BA /* Plist */,
 				DE1B53251E79AD7D000F01BA /* Helper extensions.swift */,
 				DE1B53271E79B269000F01BA /* customField.swift */,
+				DEE089DA1E7B7B5E0007814F /* constants.swift */,
 			);
 			path = weWrk_1;
 			sourceTree = "<group>";
@@ -92,6 +121,7 @@
 			children = (
 				DE1B53051E790D6C000F01BA /* LaunchScreen.storyboard */,
 				DE1B53081E790D6C000F01BA /* Info.plist */,
+				DEE089D71E7B56E00007814F /* GoogleService-Info.plist */,
 			);
 			name = Plist;
 			sourceTree = "<group>";
@@ -99,10 +129,9 @@
 		DE1B53111E790EF9000F01BA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DE1B52FC1E790D6C000F01BA /* FirstViewController.swift */,
 				DE1B530F1E790EDC000F01BA /* LoginViewController.swift */,
-				DE1B52FE1E790D6C000F01BA /* SecondViewController.swift */,
 				DE1B531F1E798624000F01BA /* SignupViewController.swift */,
+				DEE089DC1E7B88870007814F /* feedViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -140,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE1B530B1E790D6C000F01BA /* Build configuration list for PBXNativeTarget "weWrk_1" */;
 			buildPhases = (
+				27C2D47F9166D66EF669EE9B /* [CP] Check Pods Manifest.lock */,
 				DE1B52F31E790D6B000F01BA /* Sources */,
 				DE1B52F41E790D6B000F01BA /* Frameworks */,
 				DE1B52F51E790D6B000F01BA /* Resources */,
+				7FF8097D44DE758896550C6A /* [CP] Embed Pods Frameworks */,
+				9CB7BD14139E6D94F77A3014 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,6 +199,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y9R5463FG5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -194,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1B53181E792477000F01BA /* Source_Sans_Pro in Resources */,
+				DEE089D81E7B56E00007814F /* GoogleService-Info.plist in Resources */,
 				DE1B53071E790D6C000F01BA /* LaunchScreen.storyboard in Resources */,
 				DE1B53041E790D6C000F01BA /* Assets.xcassets in Resources */,
 				DE1B531A1E797AB1000F01BA /* SourceSansPro-Bold.ttf in Resources */,
@@ -205,18 +243,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27C2D47F9166D66EF669EE9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FF8097D44DE758896550C6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weWrk_1/Pods-weWrk_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB7BD14139E6D94F77A3014 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weWrk_1/Pods-weWrk_1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE1B52F31E790D6B000F01BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE1B53101E790EDC000F01BA /* LoginViewController.swift in Sources */,
-				DE1B52FF1E790D6C000F01BA /* SecondViewController.swift in Sources */,
+				DEE089DD1E7B88870007814F /* feedViewController.swift in Sources */,
 				DE1B53201E798624000F01BA /* SignupViewController.swift in Sources */,
 				DE1B52FB1E790D6C000F01BA /* AppDelegate.swift in Sources */,
 				DE1B53281E79B269000F01BA /* customField.swift in Sources */,
 				DE1B53261E79AD7D000F01BA /* Helper extensions.swift in Sources */,
-				DE1B52FD1E790D6C000F01BA /* FirstViewController.swift in Sources */,
+				DEE089DB1E7B7B5E0007814F /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +423,10 @@
 		};
 		DE1B530C1E790D6C000F01BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7E00698685A9286E9C03EF /* Pods-weWrk_1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weWrk_1/weWrk_1.entitlements;
 				DEVELOPMENT_TEAM = Y9R5463FG5;
 				INFOPLIST_FILE = weWrk_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -350,8 +438,10 @@
 		};
 		DE1B530D1E790D6C000F01BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF0DC01750002144E15161F /* Pods-weWrk_1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = weWrk_1/weWrk_1.entitlements;
 				DEVELOPMENT_TEAM = Y9R5463FG5;
 				INFOPLIST_FILE = weWrk_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
