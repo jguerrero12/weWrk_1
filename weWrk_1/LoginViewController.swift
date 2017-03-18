@@ -61,7 +61,7 @@ class LoginViewController: UIViewController {
                 } else {
                     FIRAuth.auth()?.createUser(withEmail: email, password: pwdField, completion: { (user, error) in
                         if error != nil {
-                            print("Unable to auth with firebase")
+                            print("Unable to auth with Firebase")
                         } else {
                             print("Successfully auth with Firebase")
                         }
