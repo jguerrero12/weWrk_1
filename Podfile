@@ -6,12 +6,13 @@ target 'weWrk_1' do
   use_frameworks!
 
   # Pods for weWrk_1
-	pod ‘Firebase/Core’
-	pod ‘Firebase/Auth’
-	pod ‘Firebase/Database’
-	pod ‘Firebase/Storage’
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Database'
+	pod 'Firebase/Storage'
 	pod 'FacebookCore'
 	pod 'FacebookLogin'
 	pod 'FacebookShare'
 	pod 'SwiftKeychainWrapper'
+    pod 'GoogleSignIn'
 end

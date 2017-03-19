@@ -2,6 +2,7 @@
 import UIKit
 import Firebase
 import FBSDKLoginKit
+import GoogleSignIn
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -31,6 +32,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
             
         return true
+    }
+    //Google Log In: Brings you to Google URL
+    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
+        -> Bool {
+            return GIDSignIn.sharedInstance().handle(url,
+                                                     sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String,
+                                                     annotation: [:])
     }
     
     

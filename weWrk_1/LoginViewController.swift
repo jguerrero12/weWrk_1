@@ -4,11 +4,12 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
+import GoogleSignIn
 
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate {
     
-    // Storyboard properties
+ 
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
 
@@ -16,12 +17,19 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         emailField.underlined()
         passwordField.underlined()
+        
+        GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.clientID
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().delegate = self
+        
+    
 
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
     }
+    
     
     // Facebook login button tapped
     @IBAction func facebookLogin(_ sender: Any) {
@@ -69,6 +77,32 @@ class LoginViewController: UIViewController {
                     })
                 }
             })
+        }
+    }
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
+        if let error = error {
+            print("error with Google Sign In \(error.localizedDescription)")
+            return
+        }
+        let authentication = user.authentication
+        let credential = FIRGoogleAuthProvider.credential(withIDToken: (authentication?.idToken)!, accessToken: (authentication?.accessToken)!)
+        
+        FIRAuth.auth()?.signIn(with: credential, completion: {(user, error) in
+            if error != nil {
+                print(error?.localizedDescription)
+            }
+            return
+            print("Logged in with Google")
+            
+        })
+    }
+
+    
+    func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!, withError error: Error!) {
+        if let error = error {
+            print("error with Google Log Out \(error.localizedDescription)")
+            return
         }
     }
     
