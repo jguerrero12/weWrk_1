@@ -8,6 +8,7 @@ import Firebase
 
 class LoginViewController: UIViewController {
     
+    // Storyboard properties
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
 
