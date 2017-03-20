@@ -14,4 +14,5 @@ target 'weWrk_1' do
 	pod 'FacebookLogin'
 	pod 'FacebookShare'
 	pod 'SwiftKeychainWrapper'
+    pod 'GoogleSignIn'
 end
