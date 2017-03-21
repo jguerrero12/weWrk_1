@@ -48,7 +48,7 @@ Post model:
 
 ## Video Walkthrough 
 
-Here's a walkthrough (tentative) of implemented user stories:
+Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/KYw5cPv.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
